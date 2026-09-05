@@ -8,5 +8,6 @@ spec:
   containers:
     - name: backend
       image: adrian619/easycrud2-jenkins:backend
+      imagePullPolicy: Always
       ports:
         - containerPort: 8080
